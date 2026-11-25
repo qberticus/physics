@@ -1,16 +1,51 @@
 # Readme
 
+<br>
+
+<br>
 
 
 ## $\Large\alpha^{-1} = \left(4\pi^3 + \pi^2 + \pi\right) - \frac{1}{24\left(4\pi^3 + \pi^2 + \pi\right)} - \frac{1}{576\left(4\pi^3 + \pi^2 + \pi\right)^3}$
 
-
-<br>
 <br>
 
-![Standard Model](table_stdmodel.png)
+<br>
 
 <br>
+
+## The Standard Model
+
+
+| Observable / Invariant                           | Analytic Geometric Formula                                                                                                                                                    | Theoretical Value         | Empirical Benchmark                                                         | Absolute Error             | Relative Precision                 |
+| ------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------- | --------------------------------------------------------------------------- | -------------------------- | ---------------------------------- |
+| **Chassis Capacity ($X$)**                       | $4\pi^3 + \pi^2 + \pi$                                                                                                                                                        | $137.036303776$           | $137.035999177$                                                             | $+0.000304599$             | $2.223\text{ ppm}$                 |
+| **Fine-Structure ($\alpha^{-1}_{(1)}$)**         | $X - \frac{1}{24X}$                                                                                                                                                           | $137.035999720$           | $137.035999177(21)$                                                         | $+0.000000543$             | $+3.96\text{ ppb}$                 |
+| **Fine-Structure ($\alpha^{-1}_{\text{IR}}$)**   | $Z_{(2)} - \left(14 - \frac{2}{9}\right)\frac{\alpha_{(1)}^3}{\pi^2}$                                                                                                         | $137.0359991771$          | $137.035999177(21)$                                                         | $+0.0000000001$            | $+0.0004\text{ ppb}$               |
+| **Resistance Quantum ($R_{0}$)**                 | $\frac{h}{e^2}$                                                                                                                                                               | $25812.807459\,\Omega$    | $25812.807459(00)\,\Omega$                                                  | $0$                        | Exact definition                   |
+| **Vacuum Impedance ($Z_{0}^{\text{IR}}$)**       | $2\alpha_{\text{IR}} R_{0}$ ($Z_{0}^{(1)} = 376.730312\,\Omega$)                                                                                                              | $376.730313\,\Omega$      | $376.730313412(59)\,\Omega$                                                 | $< 10^{-6}\,\Omega$        | SI relation ($119.917\pi\,\Omega$) |
+| **Weak Mixing ($\sin^2\theta_{W}^{\text{OS}}$)** | $\frac{64}{288} + \frac{\alpha}{8}$ (on-shell boundary)                                                                                                                       | $0.223134$                | $0.22320(26)$ (PDG 2026 on-shell)                                           | $-0.000066$                | $-0.030\%$  ($-0.25\sigma$)        |
+| **$Z^0$ Boson Mass ($M_{Z}^{(0)}$)**             | $\left(\frac{X}{\sqrt{2}}\right) \\ \cdot \left[1 + \frac{1}{288}\right] m_{p}$ (tree scale)                                                                                  | $91.2336\text{ GeV}$      | $91.1879 \pm 0.0020\text{ GeV}$ (PDG 2026)                                  | $+0.0457\text{ GeV}$       | $+0.050\%$  (tree-level)           |
+| **$W^\pm$ Boson Mass ($M_{W}^{(0)}$)**           | $M_{Z}^{(0)} \sqrt{\frac{7}{9} - \frac{\alpha}{8}}$ ($M_{Z}^{\text{PDG}}$ rel.: $80.3730$)                                                                                    | $80.4133\text{ GeV}$      | $80.3625 \pm 0.0077\text{ GeV}$ (PDG 2026)                                  | $+0.0508\text{ GeV}$       | $+0.063\%$  ($+0.013\%$)           |
+| **Higgs Boson Mass ($M_{H}$)**                   | $(127 + 2\pi) \cdot m_{p}$                                                                                                                                                    | $125.056\text{ GeV}$      | $125.13 \pm 0.11\text{ GeV}$ (PDG 2026)                                     | $-0.074\text{ GeV}$        | $-0.059\%$  ($-0.67\sigma$)        |
+| **Radiative Shift ($\delta_{\text{rad}}$)**      | $\left(\frac{80}{3}\right)\left(\frac{\alpha}{2\pi}\right) \\ + \left(\frac{40}{3}\right)\left(\frac{\alpha}{2\pi}\right)^2$                                                  | $0.030989\text{ }m_{e}$   | $0.030989\text{ }m_{e}$                                                     | $< 10^{-6}\text{ }m_{e}$   | $+0.001\%$                         |
+| **Neutron Excess ($\Delta m_{np}$)**             | $\left[1 + 1.5 + \delta_{\text{rad}}\right] m_{e}$                                                                                                                            | $1.2933327\text{ MeV}$    | $1.29333251(38)\text{ MeV}$                                                 | $+0.0000002\text{ MeV}$    | $+0.17\text{ eV}$  ($+0.45\sigma$) |
+| **Proton Mass ($m_{p}/m_{e}$)**                  | $6\pi^5 + \frac{119}{4}\left(\frac{\alpha}{2\pi}\right) \\ + 3\pi\left(\frac{\alpha}{2\pi}\right)^2$                                                                          | $1836.15267336$           | $1836.152673426(32)$                                                        | $-0.00000006$              | $-0.034\text{ ppb}$                |
+| **Koide Invariant ($Q_{\text{dressed}}$)**       | $Q_{\text{tree}} = \frac{2}{3} \\ \xrightarrow{\text{rad}} Q(m_{e}, m_{\mu}, m_{\tau})$                                                                                       | $0.666661$                | $0.6666644(45)$ (PDG 2026)                                                  | $-0.0000038$               | $-0.84\sigma$                      |
+| **Muon Mass ($m_{\mu}$)**                        | $`m_{e}\left(1.5\alpha^{-1}_{(1)}\right) \\ \cdot \left[1 + 5\left(\frac{\alpha}{2\pi}\right) + \frac{\lvert C_{2}^{\text{QED}} \rvert}{24X} + \frac{\alpha^2}{4\pi^3}\right]`$ | $105.6583751\text{ MeV}$  | $105.6583755(23)\text{ MeV}$                                                | $-0.0000004\text{ MeV}$    | $-3.8\text{ ppb}$  ($-0.17\sigma$) |
+| **Tau Mass ($m_{\tau}$)**                        | $`m_{e} \alpha^{-1}_{(1)} \left(\frac{127}{5}\right) \\ \cdot \left[1 - \frac{\alpha}{8} - \frac{5}{3}\alpha^2\right]`$                                                         | $1776.861\text{ MeV}$     | $1776.93 \pm 0.09\text{ MeV}$ (PDG 2026)                                    | $-0.069\text{ MeV}$        | $-39\text{ ppm}$  ($-0.77\sigma$)  |
+| **Neutrino Seesaw ($m_{\nu}$)**                  | $\frac{m_{e}^2}{X^2 \cdot m_{p}}$ (characteristic scale $m_{2}$)                                                                                                              | $0.0148\text{ eV}$        | $m_{2} \sim 0.009\text{–}0.015\text{ eV}$ ($\sum m_{\nu} < 0.12\text{ eV}$) | —                          | Normal hierarchy scale             |
+| **Up Quark Mass ($m_{u}$)**                      | $`m_{e} \left(\frac{4\pi}{3}\right) \cdot \\ \left[1 + 24\left(\frac{\alpha}{2\pi}\right)\right]$ ($\mu_{\text{IR}} \approx 2m_{p}`$)                                           | $2.2001\text{ MeV}$       | $2.16 \pm 0.07\text{ MeV}$ ($\overline{\text{MS}}, 2\text{ GeV}$, PDG 26)   | $+0.040\text{ MeV}$        | $+0.57\sigma$                      |
+| **Down Quark Mass ($m_{d}$)**                    | $`m_{e} (3\pi) \\ \cdot \left[1 - 20\left(\frac{\alpha}{2\pi}\right)\right]$ ($\mu_{\text{IR}} \approx 2m_{p}`$)                                                                | $4.7042\text{ MeV}$       | $4.70 \pm 0.07\text{ MeV}$ ($\overline{\text{MS}}, 2\text{ GeV}$, PDG 26)   | $+0.004\text{ MeV}$        | $+0.06\sigma$                      |
+| **Quark Ratio ($m_{d}/m_{u}$)**                  | $\frac{9}{4} \cdot \left(\frac{1 - 20(\alpha/2\pi)}{1 + 24(\alpha/2\pi)}\right)$ (RG-invariant)                                                                               | $2.138138$                | $2.11^{+0.33}_{-0.25}$ (PDG 2026)                                           | $+0.028$                   | $+0.09\sigma$                      |
+| **Charm Quark ($m_{c}$)**                        | $`\mathcal{B}_{2} \mathrm{Tr}_{\mathcal{M}}\big(\widehat{\mathcal{O}}_{u}^{(1\to 2)}\big)\Omega_{u,e} m_{e} c^2 \\ = 576,\mathcal{B}_{2},m_{u}`$                          | $1.2717\text{ GeV}$       | $1.2730 \pm 0.0046\text{ GeV}$ ($\overline{\text{MS}}, m_{c}$, PDG 26)      | $-0.0013\text{ GeV}$       | $-0.28\sigma$                      |
+| **Strange Quark ($m_{s}$)**                      | $`\mathcal{B}_{2} \mathrm{Tr}_{\mathcal{M}}\big(\widehat{\mathcal{O}}_{d}^{(1\to 2)}\big)\Omega_{d,e} m_{e} c^2 \\ = 20,\mathcal{B}_{2},m_{d}`$                           | $94.41\text{ MeV}$        | $93.5 \pm 0.8\text{ MeV}$ ($\overline{\text{MS}}, 2\text{ GeV}$, PDG 26)    | $+0.91\text{ MeV}$         | $+1.14\sigma$                      |
+| **Bottom Quark ($m_{b}$)**                       | $`\mathcal{B}_{2},\mu_{pe}\left(\frac{\mathcal{H}}{P_{3}}\right) m_{e} c^2 \\ = \mathcal{B}_{2}\left(\frac{127 + 2\pi}{30}\right) m_{p} c^2`$                                   | $4.1831\text{ GeV}$       | $4.183 \pm 0.007\text{ GeV}$ ($\overline{\text{MS}}, m_{b}$, PDG 26)        | $+0.0001\text{ GeV}$       | $+0.007\sigma$                     |
+| **Top Quark ($m_{t}$)**                          | $`\big[\mu_{pe}(\mathcal{Z} + \mathcal{W}) + \Omega_{c,e}\big] m_{e} c^2 \\ = M_{Z}^{(0)} + M_{W}^{(0)} + m_{c}`$                                                               | $172.919\text{ GeV}$      | $172.60 \pm 0.27\text{ GeV}$ (direct, PDG 2026)                             | $+0.319\text{ GeV}$        | $+1.18\sigma$  ($+0.82\sigma$)     |
+| **Gravitational Constant ($G$)**                 | $\left(\frac{\hbar c}{m_{p}^2}\right) \frac{1 + \frac{2}{3X}(1+\alpha/2\pi)}{2^{127}-1}$                                                                                      | $6.67424 \times 10^{-11}$ | $6.67430(15) \times 10^{-11}$                                               | $-0.00006 \times 10^{-11}$ | $8.7\text{ ppm}$                   |
+
+
+<br>
+
 <br>
 <br>
 
